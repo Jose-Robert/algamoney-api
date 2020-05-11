@@ -15,6 +15,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -31,7 +33,6 @@ import lombok.ToString;
 @Entity
 @Table(name = "lancamento")
 public class Lancamento implements Serializable{
-	
 	private static final long serialVersionUID = 1L;
 
 	@Id
@@ -41,16 +42,16 @@ public class Lancamento implements Serializable{
 	private String descricao;
 	
 	@Column(name = "data_vencimento")
+	@DateTimeFormat(iso = DateTimeFormat.ISO.DATE)	
 	private LocalDate dataVencimento;
 	
 	@Column(name = "data_pagamento")
+	@DateTimeFormat(iso = DateTimeFormat.ISO.DATE)	
 	private LocalDate dataPagamento;
 	
 	private BigDecimal valor;
 	
 	private String observacao;
-	
-	private String anexo;
 	
 	@Enumerated(EnumType.STRING)
 	private TipoLancamento tipo;
