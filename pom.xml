@@ -37,6 +37,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+		<!-- Oauth2 -->
+		<dependency>
+			<groupId>org.springframework.security.oauth</groupId>
+			<artifactId>spring-security-oauth2</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -93,12 +98,12 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-jpamodelgen -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-jpamodelgen</artifactId>
-			<version>5.4.8.Final</version><!--$NO-MVN-MAN-VER$ -->
-			<scope>provided</scope>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.hibernate</groupId> -->
+<!-- 			<artifactId>hibernate-jpamodelgen</artifactId> -->
+<!-- 			<version>5.4.8.Final</version>$NO-MVN-MAN-VER$ -->
+<!-- 			<scope>provided</scope> -->
+<!-- 		</dependency> -->
 
 	</dependencies>
 
