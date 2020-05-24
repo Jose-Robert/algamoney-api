@@ -1,4 +1,4 @@
-package br.com.algamoneyapi.resource;
+package br.com.algamoney.api.resource;
 
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
@@ -18,11 +18,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.algamoneyapi.event.RecursoCriadoEvent;
-import br.com.algamoneyapi.model.Lancamento;
-import br.com.algamoneyapi.repository.LancamentoRepository;
-import br.com.algamoneyapi.repository.filter.LancamentoFilter;
-import br.com.algamoneyapi.service.LancamentoService;
+import br.com.algamoney.api.event.RecursoCriadoEvent;
+import br.com.algamoney.api.model.Lancamento;
+import br.com.algamoney.api.repository.LancamentoRepository;
+import br.com.algamoney.api.repository.filter.LancamentoFilter;
+import br.com.algamoney.api.service.LancamentoService;
 
 @RestController
 @RequestMapping("/lancamentos")

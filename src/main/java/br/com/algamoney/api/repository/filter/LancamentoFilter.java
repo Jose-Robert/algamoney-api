@@ -1,4 +1,4 @@
-package br.com.algamoneyapi.repository.filter;
+package br.com.algamoney.api.repository.filter;
 
 import java.time.LocalDate;
 

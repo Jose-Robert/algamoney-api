@@ -1,4 +1,4 @@
-package br.com.algamoneyapi.model;
+package br.com.algamoney.api.model;
 
 import javax.annotation.Generated;
 import javax.persistence.metamodel.SingularAttribute;

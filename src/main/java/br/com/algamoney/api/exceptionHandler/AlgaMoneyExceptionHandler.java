@@ -1,4 +1,4 @@
-package br.com.algamoneyapi.exceptionHandler;
+package br.com.algamoney.api.exceptionHandler;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import br.com.algamoneyapi.service.exception.PessoaInexistenteOuInativaException;
+import br.com.algamoney.api.service.exception.PessoaInexistenteOuInativaException;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

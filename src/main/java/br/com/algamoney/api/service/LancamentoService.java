@@ -1,13 +1,13 @@
-package br.com.algamoneyapi.service;
+package br.com.algamoney.api.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.algamoneyapi.model.Lancamento;
-import br.com.algamoneyapi.model.Pessoa;
-import br.com.algamoneyapi.repository.LancamentoRepository;
-import br.com.algamoneyapi.repository.PessoaRespository;
-import br.com.algamoneyapi.service.exception.PessoaInexistenteOuInativaException;
+import br.com.algamoney.api.model.Lancamento;
+import br.com.algamoney.api.model.Pessoa;
+import br.com.algamoney.api.repository.LancamentoRepository;
+import br.com.algamoney.api.repository.PessoaRespository;
+import br.com.algamoney.api.service.exception.PessoaInexistenteOuInativaException;
 
 @Service
 public class LancamentoService {

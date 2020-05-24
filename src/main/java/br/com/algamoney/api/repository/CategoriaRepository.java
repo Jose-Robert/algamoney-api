@@ -1,9 +1,9 @@
-package br.com.algamoneyapi.repository;
+package br.com.algamoney.api.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import br.com.algamoneyapi.model.Categoria;
+import br.com.algamoney.api.model.Categoria;
 
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Long>{

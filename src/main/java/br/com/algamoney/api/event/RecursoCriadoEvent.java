@@ -1,4 +1,4 @@
-package br.com.algamoneyapi.event;
+package br.com.algamoney.api.event;
 
 import javax.servlet.http.HttpServletResponse;
 

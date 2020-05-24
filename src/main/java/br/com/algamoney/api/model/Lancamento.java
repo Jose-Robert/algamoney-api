@@ -1,4 +1,4 @@
-package br.com.algamoneyapi.model;
+package br.com.algamoney.api.model;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

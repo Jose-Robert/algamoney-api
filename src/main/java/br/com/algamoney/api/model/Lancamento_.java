@@ -1,4 +1,4 @@
-package br.com.algamoneyapi.model;
+package br.com.algamoney.api.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

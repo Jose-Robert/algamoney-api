@@ -1,4 +1,4 @@
-package br.com.algamoneyapi.repository.lancamento;
+package br.com.algamoney.api.repository.lancamento;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,9 +16,9 @@ import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import org.springframework.util.StringUtils;
 
-import br.com.algamoneyapi.model.Lancamento;
-import br.com.algamoneyapi.model.Lancamento_;
-import br.com.algamoneyapi.repository.filter.LancamentoFilter;
+import br.com.algamoney.api.model.Lancamento;
+import br.com.algamoney.api.model.Lancamento_;
+import br.com.algamoney.api.repository.filter.LancamentoFilter;
 
 public class LancamentoRepositoryImpl implements LancamentoRepositoryQuery {
 	

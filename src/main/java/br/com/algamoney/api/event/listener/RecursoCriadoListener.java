@@ -1,4 +1,4 @@
-package br.com.algamoneyapi.event.listener;
+package br.com.algamoney.api.event.listener;
 
 import java.net.URI;
 
@@ -8,7 +8,7 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import br.com.algamoneyapi.event.RecursoCriadoEvent;
+import br.com.algamoney.api.event.RecursoCriadoEvent;
 
 @Component
 public class RecursoCriadoListener implements ApplicationListener<RecursoCriadoEvent>{

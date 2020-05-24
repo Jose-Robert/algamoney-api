@@ -1,12 +1,12 @@
-package br.com.algamoneyapi.service;
+package br.com.algamoney.api.service;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
-import br.com.algamoneyapi.model.Pessoa;
-import br.com.algamoneyapi.repository.PessoaRespository;
+import br.com.algamoney.api.model.Pessoa;
+import br.com.algamoney.api.repository.PessoaRespository;
 
 @Service
 public class PessoaService {

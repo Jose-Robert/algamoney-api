@@ -1,3 +1,4 @@
+package br.com.algamoney.api.config;
 /*package br.com.algamoneyapi.config;
 
 import org.springframework.context.annotation.Configuration;
