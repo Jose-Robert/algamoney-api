@@ -97,13 +97,20 @@
 			<version>3.10</version><!--$NO-MVN-MAN-VER$ -->
 		</dependency>
 
+		<!-- JWT -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-jwt</artifactId>
+		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-jpamodelgen -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.hibernate</groupId> -->
-<!-- 			<artifactId>hibernate-jpamodelgen</artifactId> -->
-<!-- 			<version>5.4.8.Final</version>$NO-MVN-MAN-VER$ -->
-<!-- 			<scope>provided</scope> -->
-<!-- 		</dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.hibernate</groupId> -->
+		<!-- <artifactId>hibernate-jpamodelgen</artifactId> -->
+		<!-- <version>5.4.8.Final</version>$NO-MVN-MAN-VER$ -->
+		<!-- <scope>provided</scope> -->
+		<!-- </dependency> -->
 
 	</dependencies>
 
