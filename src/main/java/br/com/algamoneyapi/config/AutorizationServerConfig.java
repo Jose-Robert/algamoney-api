@@ -26,7 +26,7 @@ public class AutorizationServerConfig extends AuthorizationServerConfigurerAdapt
 			.secret("@ngul@r0")
 			.scopes("read", "write")
 			.authorizedGrantTypes("password")
-			.accessTokenValiditySeconds(180);
+			.accessTokenValiditySeconds(20);
 	}
 	
 	@Override
@@ -38,7 +38,8 @@ public class AutorizationServerConfig extends AuthorizationServerConfigurerAdapt
 		
 	}
 	
-	private JwtAccessTokenConverter accessTokenConverter() {
+	@Bean
+	public JwtAccessTokenConverter accessTokenConverter() {
 		JwtAccessTokenConverter accessTokenConverter = new JwtAccessTokenConverter();
 		accessTokenConverter.setSigningKey("algamoney");
 		return accessTokenConverter;
