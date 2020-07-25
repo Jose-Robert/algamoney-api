@@ -10,7 +10,7 @@ public class AlgaMoneyApiProperty {
 	
 	@Getter
 	@Setter
-	private String originPermitida = "http://localhost:8000";
+	private String originPermitida = "http://localhost:4200";
 	
 	@Getter
 	private final Seguranca Seguranca = new Seguranca();
